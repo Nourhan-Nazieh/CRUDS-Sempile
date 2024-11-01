@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    transition: all .2s;
+  }
+  
+ body{
+    width: 100%;
+    transition: all .5s;
+    background-image: url(../Assets/imag/bgg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Arima", system-ui;
+    box-sizing: border-box;
+  }
+
+  /* <!-- ـــــــــHEADـــــــــ --> */
+
+  .container{
+    box-shadow: 0 0 10px rgba(106, 101, 101, 0.473);
+    width: 90%;
+    padding-bottom: 30px !important;
+  }
+
+ body .container .row{
+  width: 45%;
+  box-shadow: 0 0 10px rgba(223, 255, 250, 0.642);
+  text-align: center;
+  margin:auto !important;
+  margin-top: 10px !important;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  text-shadow : 3px 2px 4px rgba(216, 255, 237, 0.907);
+  font-size: 15px !important;
+  color: rgb(28, 99, 94);
+  border-bottom:rgba(48, 171, 132, 0.578) solid 3px ;
+  border-radius: 10px !important;
+ } 
+
+ .Animate{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-bottom: 140px !important;
+  margin: 0;  
+}
+
+ body .container .row h1{
+  font-size: 40px !important;
+ }
+
+ body .container .row p{
+  color: rgba(36, 74, 75, 0.668);
+  text-shadow : 3px 2px 4px rgb(247, 252, 250);
+  font-family:cursive;
+  font-weight: 700;
+ }
+
+
+ @media(max-width:750px){
+
+  body{
+    width: 100%;
+    height: 100vh !important;
+    transition: all .5s;
+    background-image: url(../imag/bgg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Arima", system-ui;
+    box-sizing: border-box;
+  }
+
+
+  .container{
+    box-shadow: 0 0 10px rgba(106, 101, 101, 0.473);
+    width: 95%;
+    padding-bottom: 20px !important;
+    padding-top: 0px !important ;
+    margin-top: 0px !important;
+  }
+
+  body .container .row{
+    width:99% !important;
+    box-shadow: 0 0 10px rgba(223, 255, 250, 0.642);
+    text-align: center;
+    margin:0px !important;
+    padding: 0px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-shadow : 3px 2px 4px rgba(216, 255, 237, 0.907);
+    font-size: 15px !important;
+    color: rgb(28, 99, 94);
+    border-bottom:rgba(48, 171, 132, 0.578) solid 3px ;
+    border-radius: 10px !important;
+   }
+
+   body .container .row h1{
+    font-size: 20px !important;
+    
+   }
+
+   body .container .row p{
+    font-size: 10px;
+    margin-left: 30px !important;
+    color: rgba(36, 74, 75, 0.57);
+    text-shadow : 3px 2px 4px rgba(247, 252, 250, 0.782);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+   }
+
+  .Animate{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 140px !important;
+    margin: 0;  
+  }
+
+  #Inpcate{
+    margin-left: 13px !important;
+    padding-top: 15px;
+    padding-bottom: 3px;
+  }
+
+  .container .design #drobcate{
+    padding-bottom: 5px !important; 
+    margin-left: 10px !important;
+  }
+
+ }
+
+/* <!-- ـــــــــSTART-Categoryـــــــــ --> */
+
+ body .container .design {
+  width: 95%;
+  color: rgb(96, 11, 11);
+  font-weight: 800;
+  text-align: left !important;
+  font-size: 20px !important;
+  box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
+  border-radius: 5px;
+  background-color: rgba(85, 115, 107, 0.137);
+  padding: 10px;
+}
+
+ body .design .parentcate{
+  color: rgb(96, 11, 11);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-top: 3px !important;
+}
+
+
+body .container .design input{
+  background-color: rgba(255, 253, 249, 0.619);
+  box-shadow: 0 0 10px rgba(223, 2, 2, 0.296);
+  
+}  
+
+body .container .design select{
+    background-color: rgba(255, 253, 249, 0.619);
+    box-shadow: 0 0 10px rgba(223, 2, 2, 0.296);  
+}
+
+
+ .categoryName{
+  width: 370px;
+
+ }
+
+ 
+ #Total{
+  width: 140px !important
+  
+}
+ 
+
+ @media(max-width:750px){
+
+  body .container .design {
+    width: 100% !important;
+    color: rgb(96, 11, 11);
+    text-align: left !important;
+    font-size: 17px !important;
+    padding-left :0px ;
+    margin-top: 9px !important;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.404) !important;
+    border-radius: 5px;
+    background-color: rgba(85, 115, 107, 0.137);
+    
+  }
+
+
+  body .design .parentcate{
+    margin: 0px 0px !important;
+    padding-left: 10px;
+    color: rgb(96, 11, 11);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categoryName{
+    width: 370px !important;
+    margin-left: 10px !important;
+   }
+
+   body .container .design .btn{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+
+  #Total{
+    width: 160px !important
+    
+  }
+
+ }
+ 
+/* <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+<!-- ـــــــــProductـــــــــ --> */
+body .container .Products{
+  width: 95%;
+  font-weight: 800;
+  text-align: left !important;
+  font-size: 19px !important;
+  font-family: cursive !important;
+  box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
+  border-radius: 5px;  
+  padding-left: 55px !important;
+
+}
+  
+body .container .Products input{
+background-color: rgba(255, 233, 213, 0.379);
+box-shadow: 0 0 10px rgb(103, 119, 119);
+
+}
+
+ body .container .Products label{
+  padding-left: 8px;
+  padding-bottom: 5px !important;
+  padding-top: 10px !important;
+  margin-bottom: 5px !important;
+
+}
+
+input:focus{
+  background:rgba(255, 249, 233, 0.803) !important;
+  color: rgb(23, 18, 65) !important;
+  background-clip: padding-box;
+  border-radius: 10px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: 3px solid rgba(38, 125, 68, 0.641) !important;
+  box-shadow: 0 0 10px rgb(235, 223, 217);
+  transform: scale(1.1);
+  transition: all .6s;
+  }
+
+
+
+  @media(max-width:750px){
+
+    body .container .Products{
+      font-size: 18px !important;
+      font-family: cursive !important;
+      box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
+      border-radius: 5px;  
+      padding-left: 14px !important;
+    }
+
+    body .container .Products .btn{
+
+      width: 90px !important;
+      margin: 0px;
+      
+    }
+
+  }
+
+/* <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+/* -- ـــــTableــــ -- */
+
+ .parentTable table{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px rgba(255, 248, 235, 0.947) !important;
+
+  }
+  
+  .parentTable table th,td{
+      padding: 5px !important;
+      background-color: rgba(41, 91, 81, 0.675);
+      font-size: 16px;
+      text-align: center !important;
+
+  }
+
+  table td{
+  padding: 5px !important;
+  font-weight: 400;
+  box-shadow: 0 0 10px rgba(221, 194, 146, 0.336) !important;
+  text-align: center !important;
+
+  }
+
+  .modal-content{
+    background-color: rgba(54, 75, 73, 0.801) !important;
+    border-radius: 10%;
+    margin: auto !important;
+    color: rgb(255, 136, 136);
+    font-size: 15px;
+    font-weight:600 ;
+  }
+  
+
+ @media(max-width:750px){
+
+  body .container .row{
+    width: 90%;
+    height: 30%;
+    box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
+    text-align: center;
+    margin:auto !important;
+    margin-top: 30px !important;
+   } 
+
+
+   .modal-content{
+    background-color: rgb(69, 83, 85) !important;
+    border-radius: 10%;
+    margin: auto !important;
+    color: aliceblue;
+    width: 80%;
+    height: 10% !important;
+  }
+  
+  table tbody button{
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px 0px !important;
+  padding: 0px 10px !important;
+ }
+
+ }
+
+
+ 
+/* ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+    /* <!--ــــــــــــــــSTART Scroll Navebarــــــــــــــ --> */
+
+/*ــ width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/*ــTrack */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(97, 35, 35, 0.597); 
+
+  border-radius: 10px;
+  border-radius: 1px;
+
+}
+ 
+/*ــHandle */
+::-webkit-scrollbar-thumb {
+  background: rgba(23, 75, 54, 0.615); 
+  border-radius: 10px;
+}
+
+/*ــHandle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(73, 62, 25, 0.482); 
+}
