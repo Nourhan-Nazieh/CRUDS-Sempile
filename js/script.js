@@ -196,7 +196,6 @@ document.getElementById('tablepro').innerHTML = TablePro;
 //ـــDelete-Product:-
 function DeleteProdct(id){
 if(confirm ("Are You Sure Deleted")==true){
-// هحذف من الاراي واللوكال استوردج
 ProductArray.splice(id,1);
 localStorage.Product = JSON.stringify(ProductArray);
 showTableProduct();
