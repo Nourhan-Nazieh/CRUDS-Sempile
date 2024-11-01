@@ -6,7 +6,6 @@ let quntity = document.querySelector("#quntity");
 let Price = document.querySelector("#Price");
 let Descount = document.querySelector("#Descount");
 let Total = document.querySelector("#Total");
-
 let CategoryArray; 
 let ProductArray;
 let btnupdates= "creat";
@@ -32,9 +31,7 @@ localStorage.Product != null? ProductArray = JSON.parse(localStorage.Product) :P
 // ـــReset-Category:-
 function Reset(){
 category.value= " ";
-
 }
-
 // --------------------------------
 // ـــShow-Data:-
  function ShowCategory(){
@@ -68,7 +65,6 @@ function ShowTableCategory() {
         `;
     }
  document.querySelector("#bodyCategory").innerHTML = Table;
-
 }
 
 // --------------------------------
@@ -82,7 +78,6 @@ function DeleteCategory(id){
         CountCategory();
     }
 }
-
 // ---------------------------------
 //ــــCount-Category:-
  function CountCategory(){
@@ -287,7 +282,6 @@ function CountProduct(){
     lbPrice.style.color = 'white';
     valid = true;
  SaveProduct();
-
 }
 
 if(downlistCate.options[downlistCate.selectedIndex] .text != ''
