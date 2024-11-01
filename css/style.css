@@ -93,6 +93,7 @@
 
    body .container .row h1{
     font-size: 20px !important;
+    font-weight: 800;
     
    }
 
@@ -129,7 +130,6 @@
  body .container .design {
   width: 95%;
   color: rgb(96, 11, 11);
-  font-weight: 800;
   text-align: left !important;
   font-size: 20px !important;
   box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
@@ -142,6 +142,8 @@
 }
 
  body .design .parentcate{
+  font-weight: 300 !important;
+
   color: rgb(96, 11, 11);
   font-weight: 700;
   display: flex;
@@ -237,6 +239,9 @@ box-shadow: 0 0 10px rgb(103, 119, 119);
   padding-bottom: 5px !important;
   padding-top: 10px !important;
   margin-bottom: 5px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  font-weight:400 ;
+
 }
 
 input:focus{
@@ -257,7 +262,6 @@ input:focus{
 
     body .container .Products{
       font-size: 18px !important;
-      font-family: cursive !important;
       box-shadow: 0 0 10px rgba(26, 214, 186, 0.404);
       border-radius: 5px;  
       padding-left: 14px !important;
@@ -265,10 +269,15 @@ input:focus{
 
     body .container .Products .btn{
 
-      width: 90px !important;
+      width: 120px !important;
       margin: 0px;
       
     }
+       body .container .Products label{
+  font-weight:300 !important;
+
+}
+      
 
   }
 
@@ -294,7 +303,7 @@ input:focus{
 
   table td{
   padding: 5px !important;
-  font-weight: 400;
+  font-weight: 300;
   box-shadow: 0 0 10px rgba(221, 194, 146, 0.336) !important;
   text-align: center !important;
 
@@ -306,7 +315,7 @@ input:focus{
     margin: auto !important;
     color: rgb(255, 136, 136);
     font-size: 15px;
-    font-weight:600 ;
+    font-weight:200 ;
   }
   
 
@@ -350,7 +359,6 @@ input:focus{
 /*ــTrack */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgba(97, 35, 35, 0.597); 
-
   border-radius: 10px;
   border-radius: 1px;
 
