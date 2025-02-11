@@ -305,4 +305,46 @@ $(document).ready(function(){
 
 
 
+// ------------------------------
+document.addEventListener("DOMContentLoaded", function () {
+  const themeToggle = document.createElement("button");
+  themeToggle.innerText = "🌙";
+  themeToggle.style.position = "fixed";
+  themeToggle.style.top = "10px";
+  themeToggle.style.right = "10px";
+  themeToggle.style.padding = "10px";
+  themeToggle.style.backgroundColor = "#333";
+  themeToggle.style.color = "#fff";
+  themeToggle.style.border = "none";
+  themeToggle.style.borderRadius = "50%";
+  themeToggle.style.cursor = "pointer";
+  themeToggle.style.fontSize = "20px";
+  themeToggle.style.zIndex = "1000"; 
+
+  document.body.appendChild(themeToggle);
+
+  function applyTheme(isDark) {
+    if (isDark) {
+      document.body.classList.add("dark-mode");
+      document.getElementById("dark-overlay").style.display = "block"; 
+      localStorage.setItem("theme", "dark");
+      themeToggle.innerText = "☀️";
+    } else {
+      document.body.classList.remove("dark-mode");
+      document.getElementById("dark-overlay").style.display = "none"; 
+      localStorage.setItem("theme", "light");
+      themeToggle.innerText = "🌙";
+    }
+  }
+
+  // تحميل الثيم المحفوظ من localStorage
+  let isDark = localStorage.getItem("theme") === "dark";
+  applyTheme(isDark);
+
+  // عند الضغط على الزر، يبدل بين الوضعين
+  themeToggle.addEventListener("click", function () {
+    isDark = !isDark;
+    applyTheme(isDark);
+  });
+});
 
